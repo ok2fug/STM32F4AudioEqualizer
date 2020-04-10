@@ -36,6 +36,8 @@ int main(void) {
 	/* Initialize interrupts */
 	MX_NVIC_Init();
 
+	adjustBandsGain(1,1,1,1,1,1,1,1);
+
 	while (1) {
 
 		if (inputStreamStateFlag == INPUT_STREAM_READY) {

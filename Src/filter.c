@@ -294,3 +294,15 @@ float32_t * getOutputStreamSample(void)
 {
 	return &outputStream[sampleCurrentIndex];
 }
+
+void adjustBandsGain(float32_t G0, float32_t G1, float32_t G2, float32_t G3, float32_t G4, float32_t G5, float32_t G6, float32_t G7)
+{
+	bandGainArray[0] = G0;
+	bandGainArray[1] = G1;
+	bandGainArray[2] = G2;
+	bandGainArray[3] = G3;
+	bandGainArray[4] = G4;
+	bandGainArray[5] = G5;
+	bandGainArray[6] = G6;
+	bandGainArray[7] = G7;
+}

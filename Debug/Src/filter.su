@@ -1,0 +1,6 @@
+filter.c:124:6:INITfilteringCoeffs	24	static
+filter.c:172:6:filterBuffers	16	static
+filter.c:238:6:rotateBuffers	4	static
+filter.c:265:6:insertInputStreamSample	16	static
+filter.c:279:6:insertInputStreamSampleMock	8	static
+filter.c:293:13:getOutputStreamSample	4	static

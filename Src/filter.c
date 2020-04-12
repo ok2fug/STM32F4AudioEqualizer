@@ -1,5 +1,4 @@
 #include "filter.h"
-#include "stm32f4xx_hal_adc.h"
 
 
 //8 Bands constant Q = 1.179858 equalizer coefficients
